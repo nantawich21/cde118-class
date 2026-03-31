@@ -12,6 +12,7 @@ const navLinks = [
   { path: "/principles", label: "หลักการออกแบบ UIUX" },
   { path: "/download", label: "ดาวน์โหลดเอกสารประกอบการเรียน" },
   { path: "/scores", label: "ตรวจสอบคะแนนเก็บ" },
+    { path: "/mock-exam", label: "ทดสอบความรู้" },
   { path: "/instructor", label: "แนะนำผู้สอน" },
 ];
 
