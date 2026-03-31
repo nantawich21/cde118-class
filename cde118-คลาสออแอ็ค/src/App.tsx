@@ -13,6 +13,7 @@ import UIUXPrinciples from "./pages/UIUXPrinciples";
 import DownloadMaterials from "./pages/DownloadMaterials";
 import CheckScores from "./pages/CheckScores";
 import Instructor from "./pages/Instructor";
+import MockExam from "./pages/MockExam";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="process" element={<UIUXProcess />} />
           <Route path="principles" element={<UIUXPrinciples />} />
           <Route path="download" element={<DownloadMaterials />} />
+          <Route path="mock-exam" element={<MockExam />} />
           <Route path="scores" element={<CheckScores />} />
           <Route path="instructor" element={<Instructor />} />
         </Route>
